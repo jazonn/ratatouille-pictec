@@ -15,7 +15,7 @@ body{
     color: #FFDFD3;
 }
 
-/* NAVBAR */ 
+/* NAVBAR */
 
 .navbar{
     padding: 25%;
@@ -72,4 +72,60 @@ body{
     #titulo-cabecalho{
         padding-top: 25%;
     }
+}
+
+#titulo-menu{
+  padding-right: 65%;
+  color: #F0F8FF;
+}
+
+/* TABELA */
+table{
+font-family: "Montserrat", sans-serif;
+font-size: 28px;
+border-collapse: collapse;
+width: 40%;
+}
+
+.tabela{
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+tr{
+  background-color: rgba(192, 192, 192, 0.6);
+}
+
+tr:hover{
+  background-color: #343a30;
+}
+
+td, th{
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  text-align: left;
+  padding: 15%;
+}
+
+/* MENU */
+#menu{
+  background-image: url("images/churros.jpg");
+}
+
+@media (max-width: 1400px){
+#menu{
+  height: 120%;
+}
+}
+
+@media (max-width: 890px){
+#menu{
+  height: 170%;
+}
+}
+
+@media (max-width: 725px){
+#menu{
+  height: 220%;
+}
 }
