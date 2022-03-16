@@ -63,6 +63,15 @@ body{
     font-family: "Bad Script", cursive
 }
 
+#texto-descricao{
+  font-size: 140%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 38%;
+  text-align: justify;
+}
+
+
 #titulo-cabecalho{
     color: #F0F8FF;
     text-shadow: 2px 1px 2px #080808;
@@ -128,4 +137,22 @@ td, th{
 #menu{
   height: 220%;
 }
+}
+
+/* IMAGENS */
+.imagem-direita{
+  margin-left: 50%;
+  padding-right: 7%;
+  background-color: #FFDFD3;
+  width: 50%;
+}
+
+.imagem-esquerda{
+  padding-left: 7%;
+  background-color: #ffc458;
+  width: 50%;
+}
+
+.imagem-esquerda:hover, .imagem-direita:hover{
+  background-color: white;
 }
