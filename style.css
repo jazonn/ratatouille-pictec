@@ -56,6 +56,11 @@ body{
     padding-bottom: 35%;
 }
 
+#contato{
+  padding-bottom: 1%;
+  background-color: #343a40;
+}
+
 /* TEXTOS */
 .titulos{
     font-size: 120px;
