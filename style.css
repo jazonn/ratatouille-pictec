@@ -61,12 +61,43 @@ body{
   background-color: #343a40;
 }
 
+#formulario{
+  background-color: #343a40;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#localizacao{
+  background-color: #343a40;
+  padding-top: 2%;
+  padding-left: 10%;
+}
+
+/* BOTÕES */
+#botao-formulario{
+  margin-top: 2%;
+}
+
 /* TEXTOS */
 .titulos{
     font-size: 120px;
     text-align: center;
     font-family: "Bad Script", cursive
 }
+
+.titulos-formulario{
+  font-size: 200%;
+}
+
+ .textos-formulario{
+   font-size: 120%;
+ }
+
+ .formulario{
+   font-family: "Montserrat" !important;
+   color: #F0F8FF;
+ }
+
 
 #texto-descricao{
   font-size: 140%;
@@ -160,4 +191,14 @@ td, th{
 
 .imagem-esquerda:hover, .imagem-direita:hover{
   background-color: white;
+}
+
+/* MAPAS */
+@media (max-width: 780px) {
+  #mapa-localizacao{
+    width: 70%;
+    height: 60%;
+    margin-left: 10%;
+
+  }
 }
